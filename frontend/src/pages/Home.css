@@ -1,0 +1,54 @@
+.home-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: white;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.home-container h1 {
+  font-size: 42px;
+  margin-bottom: 10px;
+}
+
+.home-container p {
+  font-size: 18px;
+  margin-bottom: 30px;
+  opacity: 0.9;
+}
+
+.home-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.btn {
+  padding: 12px 30px;
+  font-size: 16px;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.login-btn {
+  background: white;
+  color: #5a67d8;
+}
+
+.login-btn:hover {
+  background: #edf2ff;
+}
+
+.signup-btn {
+  background: #ff7a18;
+  color: white;
+}
+
+.signup-btn:hover {
+  background: #ff9a3c;
+}
